@@ -1,0 +1,23 @@
+{
+  "name": "hands_on_practice",
+  "version": "1.0.0",
+  "description": "Basic app with React",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon -w main.js",
+    "watch": "babel Jsx --out-dir public --watch --verbose --presets @babel/preset-react",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "Babel": "^0.0.1",
+    "express": "^4.19.2",
+    "tools": "^0.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
